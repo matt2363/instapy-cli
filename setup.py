@@ -46,8 +46,8 @@ setup(
     install_requires=[ # external packages as dependencies
         'requests>=2',
         'filetype==1.0.5',
-        'instagram-private-api==1.6.0',
-        'instagram-private-api_extensions==0.3.8',
+        'instagram_private_api==1.6.0',
+        'instagram_private_api_extensions==0.3.8',
     ],
     dependency_links=[
         'git+https://git@github.com/ping/instagram_private_api.git@1.6.0#egg=instagram_private_api-1.6.0',
